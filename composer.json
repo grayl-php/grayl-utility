@@ -1,0 +1,34 @@
+{
+  "name": "grayl/utility",
+  "description": "Utility mixins for use in stand alone applications",
+  "keywords": [
+    "grayl"
+  ],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Grogwood LLC",
+      "email": "dev@grogwood.com",
+      "homepage": "http://grogwood.com",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "grayl/mixin-common": "^1",
+    "php": "~7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grayl\\Utility\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Grayl\\Test\\Utility\\": "tests/"
+    }
+  }
+}
